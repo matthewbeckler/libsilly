@@ -11,12 +11,13 @@ A silly test library for playing around with continuous integration things:
 * It does all the building and running in a build/ directory.
 * It writes log files in the build/ directory.
 * It writes the results into an easy-to-parse file called "the_status" like this:
-
-    build: pass
-    tests: pass
-    cover_line: 98.4%
-    cover_func: 100.0%
-    formatting: pass
+```
+build: pass
+tests: pass
+cover_line: 98.4%
+cover_func: 100.0%
+formatting: pass
+```
 
 ## Things to modify for your project:
 * test/CMakeLists.tx
